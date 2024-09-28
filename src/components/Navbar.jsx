@@ -19,11 +19,13 @@ const Logo = styled.h1`
     color: #1c1c22;
     font-weight: bold;
     text-decoration: underline #00ff99;
-    //hover: #00e187
 `;
 const Menu = styled.ul`
     display: flex;
     list-style: none;
+    @media only screen and (max-width: 480px) {
+        display: none;
+    }
 `;
 const MenuItem = styled.li`
     margin-right: 30px;
@@ -48,7 +50,7 @@ const Navbar = () => {
     <Container>
         <Wrapper>
             <Left>
-                <Logo>Agency</Logo>
+                <Logo>H: Agency</Logo>
                 <Menu>
                     <MenuItem>Home</MenuItem>
                     <MenuItem>Features</MenuItem>
