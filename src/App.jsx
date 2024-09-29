@@ -12,6 +12,7 @@ const Container = styled.div`
   overflow: hidden;
   position: relative;
 `;
+
 const Shape = css`
   width: 100%;
   height: 100%;
