@@ -21,6 +21,7 @@ const Shape = css`
   left: 0;
   z-index: -1;
 `;
+
 const IntoShape = styled.div`
   ${Shape}
   clip-path: polygon(65% 0, 100% 0, 100% 100%, 55% 100%);
