@@ -27,6 +27,7 @@ const IntoShape = styled.div`
   clip-path: polygon(65% 0, 100% 0, 100% 100%, 55% 100%);
   background-color: #00ff99;
 `;
+
 const FeatureShape = styled.div`
   ${Shape}
   clip-path: polygon(0 0, 55% 0, 35% 100%, 0 100%);
@@ -47,29 +48,29 @@ const App = () => {
   const smallScreen = window.screen.width <= 480 ? true : false;
   return (
     <>
-    <Container>
-      <Navbar />
-      <Intro />
-      <IntoShape />
-    </Container>
-    <Container>
-      <Feature />
-      <FeatureShape />
-    </Container>
-    <Container>
-      <Service />
-      {!smallScreen && <ServiceShape />}
-    </Container>
-    <Container>
-      <Price />
-      <PriceShape />
-    </Container>
-    <Container>
-      <Contact />
-      <Footer />
-    </Container>
+      <Container>
+        <Navbar />
+        <Intro />
+        <IntoShape />
+      </Container>
+      <Container>
+        <Feature />
+        <FeatureShape />
+      </Container>
+      <Container>
+        <Service />
+        {!smallScreen && <ServiceShape />}
+      </Container>
+      <Container>
+        <Price />
+        <PriceShape />
+      </Container>
+      <Container>
+        <Contact />
+        <Footer />
+      </Container>
     </>
-  )
-}
+  );
+};
 
 export default App;
