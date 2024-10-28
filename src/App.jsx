@@ -39,6 +39,7 @@ const ServiceShape = styled.div`
   clip-path: polygon(0 0, 35% 0, 35% 100%, 0 100%);
   background-color: #00ff99;
 `;
+
 const PriceShape = styled.div`
   ${Shape}
   clip-path: polygon(35% 0, 100% 0, 100% 100%, 65% 100%);
