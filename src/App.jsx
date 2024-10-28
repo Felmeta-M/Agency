@@ -33,6 +33,7 @@ const FeatureShape = styled.div`
   clip-path: polygon(0 0, 55% 0, 35% 100%, 0 100%);
   background-color: darkblue;
 `;
+
 const ServiceShape = styled.div`
   ${Shape}
   clip-path: polygon(0 0, 35% 0, 35% 100%, 0 100%);
